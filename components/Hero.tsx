@@ -4,6 +4,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { ArrowUpRight, Mail } from "lucide-react";
 import { profile } from "@/data/portfolio";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FcDocument } from "react-icons/fc";
 
 const container = {
   hidden: {},
@@ -110,13 +111,11 @@ export function Hero() {
             <Mail size={17} />
           </SocialLink>
           <a
-            href={profile.links.website}
+            href={'/Prajwal_Neupane_Resume .pdf'}
             target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-soft transition-colors hover:text-accent"
+            className="inline-flex items-center border p-2 rounded-xl  font-mono text-[13px] font-semibold text-gray-600 px-6 transition-colors hover:text-accent"
           >
-            prajwalneupane.vercel.app
-            <ArrowUpRight size={13} />
+            Get Resume
           </a>
         </motion.div>
       </motion.div>
