@@ -65,10 +65,10 @@ export const projects = [
     name: "Expensy",
     description:
       "A comprehensive expense management application for tracking personal and group finances through a centralized dashboard.",
-    stack: ["React.js", "Node.js", "Express", "MongoDB"],
+    stack: ["React.js", "Node.js", "Express", "Prisma" , "Postgres"],
     features: [
       "RESTful APIs handling transaction management, notifications, and secure user data storage",
-      "MongoDB-backed persistence for personal and group expense records",
+      "Postgres-backed persistence for personal and group expense records",
       "Clean, intuitive frontend focused on financial data visualization",
       "Responsive dashboard experience across devices",
     ],
